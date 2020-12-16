@@ -1,0 +1,6 @@
+[web]
+pkg = httpd
+srv = httpd
+state = started
+enabled = true
+fire_srv = http

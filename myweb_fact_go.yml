@@ -1,0 +1,19 @@
+---
+  - name: put fact to managed hosts
+    hosts: website
+    vars:
+      - src_file: myweb.fact
+      - dest_dir: /etc/ansible/facts.d
+    tasks:
+
+    - name: create "{{dest_dir }}"
+      file:
+        path: "{{ dest_dir }}"
+        state: directory
+        recurse: true
+    - name: copy "{{ src_file}}" to "{{ dest_dir }}"
+      copy:
+        src: "{{ src_file }}"
+        dest: "{{ dest_dir }}/{{ src_file }}"
+        mode: '0644'
+

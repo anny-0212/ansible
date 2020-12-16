@@ -1,0 +1,8 @@
+---
+  - name: modify /etc/hosts
+    hosts: webserver1
+    tasks:
+      - name: modify /etc/hosts
+        lineinfile:
+          path: /etc/hosts
+          line: 172.16.200.254 bid data

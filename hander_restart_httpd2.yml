@@ -1,0 +1,30 @@
+---
+  - name: restart httpd when configure changed
+    hosts: webserver1
+    vars:
+      myservice:
+        - httpd
+        - mariadb
+    tasks:
+      #1
+      - name: install httpd
+        yum:
+          name: "{{ item }}"
+          state: present
+        loop: "{{ myservice }}"
+      #2
+      - name: upload configure file
+        copy:
+          src: check.conf
+          dest: /etc/httpd/conf.d/check.conf
+        # when status is changed, notify will run
+        notify:
+          - restart httpd
+
+    handlers:
+    # name must the same with notify
+      - name: restart httpd
+        service:
+          name: "{{ item }}"
+          state: restarted
+        loop: "{{ myservice }}"

@@ -1,0 +1,32 @@
+---
+  - name: start service with condition
+    hosts: webserver1
+    vars:
+      myusers:
+        - exuser1
+        - exuser2
+        - exuser3
+        - exuser4
+    tasks:
+        #1
+      - name: add group
+        group:
+           name: exgroup
+           state: present
+        #2
+      - name: Add "{{ item }}" 
+        user:
+          name: "{{ item }}" 
+          groups: exgroup
+        loop: "{{ myusers }}"
+        #3
+      - name: id "{{ item }}"
+        command: id "{{ item }}" 
+        register: myoutput
+        loop: "{{ myusers }}"
+        #4
+      - name: show output 
+        debug:
+          #var: item.stdout
+          msg: "{{item.stdout}}"
+        loop: "{{ myoutput['results'] }}"

@@ -1,0 +1,42 @@
+---
+  - name:  server system
+    hosts:
+      - webserver1
+    vars:
+      content: "Lang-Chih Hsu\n G080A001\n"
+    tasks:
+      - name: install software
+        yum:
+          name: "{{ ansible_facts['ansible_local']['myweb']['web']['pkg'] }}"
+          state: latest
+      - name: start and enable service
+        service:
+          name: "{{ ansible_facts['ansible_local']['myweb']['web']['srv'] }}"
+          enabled: "{{ ansible_facts['ansible_local']['myweb']['web']['enabled'] }}"
+          state: "{{ ansible_facts['ansible_local']['myweb']['web']['state'] }}"
+      - name: add fire_rule firewalld
+        firewalld:
+          immediate: true
+          permanent: true
+          service: "{{ ansible_facts['ansible_local']['myweb']['web']['fire_srv'] }}"
+          state: enabled
+      - name: copy file to index.html
+        copy:
+          content: "{{ content }}"
+          dest: /var/www/html/index.html
+  - name: use uri check link
+    hosts: localhost
+    become: false
+    tasks:
+      - name: Check that you can connect (GET) to a page returns a status 200
+        uri:
+          url: http://webserver1
+          status_code: 200
+          return_content: true
+        register: output
+      - name: show register output
+        debug:
+          msg: "{{ output.content }}"
+          #var: output
+          #var: output.content
+
