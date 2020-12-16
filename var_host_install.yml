@@ -1,0 +1,11 @@
+---
+  - name: setup server package
+    hosts:
+      - website
+      - devel
+      - mylab
+    tasks:
+      - name: install packages "{{ pkg }}" for different server
+        yum:
+          name: "{{ pkg }}"
+          state: latest

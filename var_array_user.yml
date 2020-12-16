@@ -1,0 +1,16 @@
+---
+  - name: add user by array mode
+    hosts: webserver1
+    vars_files: vars/arrayuser.yml
+    tasks:
+      - name: add username "{{users['melody']['firstname']}}"
+        user:
+          user: "{{users['melody']['firstname']}}"
+          password: "{{users['melody']['password']}}"
+          home: "{{users['melody']['homedir']}}"
+        register: output
+
+      - name: show register output
+        debug:
+          msg: show username {{output.name}} uid is {{output.uid}}
+          #var: output

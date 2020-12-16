@@ -1,0 +1,19 @@
+---
+  - name: remove server package
+    hosts:
+      - webserver1
+    vars:
+      pkgs:
+        - httpd
+        - php
+        - mariadb-server
+        - mariadb
+    tasks:
+      - name: remove file index.html
+        file:
+          path: /var/www/html/index.html
+          state: absent
+      - name: remove  packages "{{ pkgs }}" for different server
+        yum:
+          name: "{{ pkgs }}"
+          state: absent

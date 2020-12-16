@@ -1,0 +1,10 @@
+---
+  - name: create new user 
+    hosts: webserver1
+    tasks:
+    - name: add user 
+      user:
+        name: myuser1
+        uid: 3101
+        comment: my test user1
+        password: $6$dYxFI/8yIR0AQ.Tg$p8ENFACZ8ezqN4.T3e/VSSQ5f7c942bj20itEQeRrhLCfitNvfRN6qEN/GWHkObLMv/iLwIHaEPvHkIy6235i1 
