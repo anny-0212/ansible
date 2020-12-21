@@ -1,0 +1,16 @@
+---
+  - name: block tasks to check httpd daemon
+    hosts: webserver1
+    tasks:
+      - name: check httpd daemon state
+        block:
+          - name: check httpd is active
+            command: systemctl is-active httpd
+            #ignore_errors: true
+          - name: check php.ini exist
+            command: ls /etc/php.ini
+            #ignore_errors: true
+
+        rescue:
+          - name: restart httpd
+            command: systemctl restart httpd

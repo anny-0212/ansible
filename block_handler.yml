@@ -1,0 +1,57 @@
+---
+  - name: check Hw and os system 
+    hosts: webserver1
+    #iforce_handlers: true //when task error,hander will run
+    #ignore_errors: true
+    tasks:
+      #1
+      - name: this linux distribution not centos 
+        fail:
+          msg: this linux distribution not centos
+        when:
+          ansible_facts['memtotal_mb'] <= 1024 or
+          ansible_facts['distribution'] != 'CentOS'
+      #2
+      - name: install web pkg 
+        yum:
+          name: 
+            - httpd
+            - mod_ssl
+            - php
+          state: present
+      #3
+      - name: start and enable httpd
+        service:
+          name: httpd
+          state: started
+          enabled: yes
+      #4
+      - name:
+        block:
+          - name: upload configure file
+            copy:
+              src: check.conf
+              dest: /etc/httpd/conf.d/check.conf
+            # when status is changed, notify will run
+            notify:
+              - restart httpd
+        rescue:
+          - name: failure install pkg
+            debug:
+              msg: "upload file failure"
+      #5
+      - name: modify firewall
+        firewalld:
+          service: "{{ item }}"
+          permanent: yes
+          state: enabled
+        loop:
+          - http
+          - https
+ 
+    handlers:
+    # name must the same with notify
+      - name: restart httpd
+        service:
+          name: httpd
+          state: restarted
