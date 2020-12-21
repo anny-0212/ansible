@@ -1,0 +1,13 @@
+---
+  - name: check user is OK or FAIL
+    hosts: webserver1
+    tasks:
+      - name: use id to check joe man
+        shell: "id joe && echo OK || echo FAIL"
+        register: myoutput
+        ignore_errors: true
+
+      - name: define to be fail task 
+        fail:
+          msg: The task is failed
+        when: "'FAIL' in myoutput.stdout"

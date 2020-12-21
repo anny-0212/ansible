@@ -1,0 +1,21 @@
+---
+  - name: check id is OK or FAIL
+    hosts: webserver1
+    tasks:
+      - name: use id to check joe man
+        shell: "id joe && echo OK || echo FAIL"
+        register: myoutput
+        changed_when: "'FAIL' in myoutput.stdout"
+        notify:
+          - create joe
+
+      - name: show msg
+        debug:
+          var: myoutput.stdout
+          
+
+    handlers:
+      - name: create joe
+        user:
+          user: joe
+          state: present
