@@ -1,17 +1,14 @@
 ---
   - name: restart httpd when configure changed
     hosts: webserver1
-    vars:
-      myservice:
-        - httpd
-        - mariadb-server
+    #iforce_handlers: true //when task error,hander will run
+    ignore_errors: true
     tasks:
       #1
       - name: install httpd
         yum:
-          name: "{{ item }}"
+          name: httpd
           state: present
-        loop: "{{ myservice }}"
       #2
       - name: upload configure file
         copy:
@@ -20,13 +17,13 @@
         # when status is changed, notify will run
         notify:
           - restart httpd
-
+      - name: failure install pkg
+        yum:
+          name: hehehaha
+          state: present
     handlers:
     # name must the same with notify
       - name: restart httpd
         service:
-          name: "{{ item }}"
+          name: httpd
           state: restarted
-        loop:
-          - httpd
-          - mariadb
