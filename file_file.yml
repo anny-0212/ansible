@@ -1,0 +1,18 @@
+---
+  - name: setup a SAMBA share directory
+    hosts: webserver1
+    tasks:
+      - name: create directory and make permissions
+        file:
+          path: /srv/samba_dir
+          state: directory
+          owner: root
+          group: student
+          mode: '2775'
+          setype: samba_share_t
+      - name: show file output
+        shell:
+          cmd: ls -ld /srv/samba_dir; ls -ldZ /srv/samba_dir
+        register: output
+      - debug:
+          msg: "{{ output.stdout }}"

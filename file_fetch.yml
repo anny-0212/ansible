@@ -1,0 +1,8 @@
+---
+  - name: copy file to control node
+    hosts: website
+    tasks:
+      - name: fetch file to here
+        fetch:
+          dest: file_backup
+          src: /var/log/secure

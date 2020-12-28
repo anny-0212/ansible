@@ -1,0 +1,20 @@
+---
+  - name: setup login show up
+    hosts: webserver1
+    vars:
+      system_owner: student@gitserver1.dic.ksu
+    tasks:
+      - name: setup /etc/motd file content
+        template:
+          src: files/motd.j3
+          dest: /etc/motd
+          owner: root
+          group: root
+          mode: 0644
+      - name: get file content
+        shell:
+          cmd: cat /etc/motd
+        register: output
+      - name: show output
+        debug:
+          msg: "{{ output.stdout }}"

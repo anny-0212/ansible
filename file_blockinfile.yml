@@ -1,0 +1,19 @@
+---
+  - name: add a block area inti file
+    hosts: webserver1
+    tasks:
+      - name: use blockinfile module
+        blockinfile:
+          path: /etc/hosts
+          block: |
+            172.16.100.1 pc1
+            172.16.100.2 pc2
+            172.16.100.3 pc3
+      - name: get file content
+        shell:
+          cmd: cat /etc/hosts
+        register: output
+      - name: show output
+        debug:
+          msg: "{{ output.stdout }}"
+

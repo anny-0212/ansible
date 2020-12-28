@@ -1,0 +1,604 @@
+Dec 21 18:33:06 gitclient1 sshd[12028]: Accepted publickey for sysadm from 172.17.1.254 port 48642 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 18:33:06 gitclient1 systemd[12032]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 18:33:06 gitclient1 sshd[12028]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 18:33:07 gitclient1 sudo[12252]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-prikdjidlxssuirfmiezcfnyzvdqyxqi ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608517989.0905998-4933-133878491920987/AnsiballZ_setup.py
+Dec 21 18:33:07 gitclient1 sudo[12252]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:33:07 gitclient1 sudo[12252]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:33:08 gitclient1 sudo[12252]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:33:09 gitclient1 sudo[12428]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zpjmxhapiqmmbtppdqrzccddjpgljdgw ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608517991.0078657-4948-22337045731133/AnsiballZ_command.py
+Dec 21 18:33:09 gitclient1 sudo[12428]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:33:09 gitclient1 sudo[12428]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:33:09 gitclient1 sudo[12428]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:34:09 gitclient1 sshd[12056]: Received disconnect from 172.17.1.254 port 48642:11: disconnected by user
+Dec 21 18:34:09 gitclient1 sshd[12056]: Disconnected from user sysadm 172.17.1.254 port 48642
+Dec 21 18:34:09 gitclient1 sshd[12028]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 18:43:01 gitclient1 sshd[12579]: Accepted publickey for sysadm from 172.17.1.254 port 48644 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 18:43:01 gitclient1 systemd[12583]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 18:43:01 gitclient1 sshd[12579]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 18:43:02 gitclient1 sudo[12803]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xiiopflihalznwxhberytjdwcxxfgzqb ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608518583.9946473-5396-12844103431458/AnsiballZ_setup.py
+Dec 21 18:43:02 gitclient1 sudo[12803]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:43:02 gitclient1 sudo[12803]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:43:03 gitclient1 sudo[12803]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:43:04 gitclient1 sudo[12979]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qwzavxrduspjagoduiwiqmpqhmvugutc ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608518585.8605492-5411-155695277513781/AnsiballZ_command.py
+Dec 21 18:43:04 gitclient1 sudo[12979]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:43:04 gitclient1 sudo[12979]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:43:04 gitclient1 sudo[12979]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:43:05 gitclient1 sudo[13114]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xwknisyngxihszmafhmzxsmgsbfavxvb ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608518586.8307958-5422-50765015718290/AnsiballZ_user.py
+Dec 21 18:43:05 gitclient1 sudo[13114]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:43:05 gitclient1 sudo[13114]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:43:05 gitclient1 useradd[13121]: new group: name=joe, GID=3110
+Dec 21 18:43:05 gitclient1 useradd[13121]: new user: name=joe, UID=3109, GID=3110, home=/home/joe, shell=/bin/bash
+Dec 21 18:43:06 gitclient1 sudo[13114]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:44:06 gitclient1 sshd[12609]: Received disconnect from 172.17.1.254 port 48644:11: disconnected by user
+Dec 21 18:44:06 gitclient1 sshd[12609]: Disconnected from user sysadm 172.17.1.254 port 48644
+Dec 21 18:44:06 gitclient1 sshd[12579]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 18:44:17 gitclient1 sshd[13187]: Accepted publickey for sysadm from 172.17.1.254 port 48646 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 18:44:18 gitclient1 systemd[13192]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 18:44:18 gitclient1 sshd[13187]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 18:44:19 gitclient1 sudo[13409]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dsyrnmhlthkittkixereabdzgsdowjmr ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608518660.5928874-5462-278020108137489/AnsiballZ_setup.py
+Dec 21 18:44:19 gitclient1 sudo[13409]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:44:19 gitclient1 sudo[13409]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:44:19 gitclient1 sudo[13409]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:44:20 gitclient1 sudo[13585]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ksxmntuafhhjrmvlshmypuqeyqwuhcty ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608518662.442847-5477-80998580461583/AnsiballZ_command.py
+Dec 21 18:44:20 gitclient1 sudo[13585]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:44:20 gitclient1 sudo[13585]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:44:20 gitclient1 sudo[13585]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:45:20 gitclient1 sshd[13216]: Received disconnect from 172.17.1.254 port 48646:11: disconnected by user
+Dec 21 18:45:20 gitclient1 sshd[13216]: Disconnected from user sysadm 172.17.1.254 port 48646
+Dec 21 18:45:20 gitclient1 sshd[13187]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 18:54:28 gitclient1 sshd[13727]: Accepted publickey for sysadm from 172.17.1.254 port 48648 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 18:54:28 gitclient1 systemd[13732]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 18:54:28 gitclient1 sshd[13727]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 18:54:29 gitclient1 sudo[13961]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yocyaohhrdlhtjnjcpgozvqxbecpzldu ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519270.7877069-5644-150867896486582/AnsiballZ_command.py
+Dec 21 18:54:29 gitclient1 sudo[13961]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:54:29 gitclient1 sudo[13961]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:54:30 gitclient1 sudo[13961]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:54:46 gitclient1 sudo[14150]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kxgotteaxrzoxjlpvgojqszlyvfhqmil ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519288.1926436-5677-270963727428629/AnsiballZ_setup.py
+Dec 21 18:54:46 gitclient1 sudo[14150]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:54:46 gitclient1 sudo[14150]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:54:47 gitclient1 sudo[14150]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:54:48 gitclient1 sudo[14326]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dggthkaqawtvuzoalasgfghueoxliwod ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519290.0930088-5688-111302839319356/AnsiballZ_command.py
+Dec 21 18:54:48 gitclient1 sudo[14326]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:54:48 gitclient1 sudo[14326]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:54:48 gitclient1 sudo[14326]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:54:49 gitclient1 sudo[14460]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-huythhgvgckpbilafqwndfcmtcrtzuuw ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519291.0080404-5697-226411995793086/AnsiballZ_command.py
+Dec 21 18:54:49 gitclient1 sudo[14460]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:54:49 gitclient1 sudo[14460]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:54:49 gitclient1 sudo[14460]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:55:30 gitclient1 su[14539]: pam_systemd(su-l:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:55:30 gitclient1 su[14539]: pam_unix(su-l:session): session opened for user root by (uid=1000)
+Dec 21 18:55:49 gitclient1 sshd[13757]: Received disconnect from 172.17.1.254 port 48648:11: disconnected by user
+Dec 21 18:55:49 gitclient1 sshd[13757]: Disconnected from user sysadm 172.17.1.254 port 48648
+Dec 21 18:55:49 gitclient1 sshd[13727]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 18:55:49 gitclient1 systemd[13740]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 21 18:59:13 gitclient1 sshd[14657]: Accepted publickey for sysadm from 172.17.1.254 port 48650 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 18:59:13 gitclient1 systemd[14661]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 18:59:13 gitclient1 sshd[14657]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 18:59:14 gitclient1 sudo[14879]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ifppxxzzwjlsheexvvdtdobafpwnqjrw ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519555.7349043-5790-140149976854717/AnsiballZ_setup.py
+Dec 21 18:59:14 gitclient1 sudo[14879]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:59:14 gitclient1 sudo[14879]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:59:15 gitclient1 sudo[14879]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:59:15 gitclient1 sudo[15055]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-chvbjfkzdsqtemdmxexsgvxfplujxpdc ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519557.694108-5813-203013849280480/AnsiballZ_command.py
+Dec 21 18:59:15 gitclient1 sudo[15055]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:59:15 gitclient1 sudo[15055]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:59:16 gitclient1 sudo[15055]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:59:16 gitclient1 sudo[15189]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-agznsylphylkitzyfepejjjydvvjyrnf ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519558.604464-5822-212882319828510/AnsiballZ_command.py
+Dec 21 18:59:16 gitclient1 sudo[15189]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:59:16 gitclient1 sudo[15189]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:59:16 gitclient1 sudo[15189]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:59:33 gitclient1 sudo[15364]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kkxljksmywzqcblpzrqjnmfqfnqlqejk ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519575.074883-5845-124726600715709/AnsiballZ_setup.py
+Dec 21 18:59:33 gitclient1 sudo[15364]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:59:33 gitclient1 sudo[15364]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:59:34 gitclient1 sudo[15364]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:59:35 gitclient1 sudo[15540]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nvjcpyfjcsfgxseaxvgmefracalmnyyj ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519576.9663718-5856-129323655782469/AnsiballZ_command.py
+Dec 21 18:59:35 gitclient1 sudo[15540]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:59:35 gitclient1 sudo[15540]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:59:35 gitclient1 sudo[15540]: pam_unix(sudo:session): session closed for user root
+Dec 21 18:59:35 gitclient1 sudo[15674]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gujlgbcqoakczfshfiiezlrlpqtuxtln ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519577.8208115-5865-162035688360767/AnsiballZ_command.py
+Dec 21 18:59:35 gitclient1 sudo[15674]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 18:59:35 gitclient1 sudo[15674]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 18:59:36 gitclient1 sudo[15674]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:00:15 gitclient1 sudo[15857]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zjlxayworsezlhilqwnvqquohizhduvj ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519617.1324372-5904-72803137305867/AnsiballZ_setup.py
+Dec 21 19:00:15 gitclient1 sudo[15857]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:00:15 gitclient1 sudo[15857]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:00:16 gitclient1 sudo[15857]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:00:17 gitclient1 sudo[16033]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kzbttjhhlwnvjshtdzwajiqxrpdpkcla ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519619.0066848-5915-91980118550512/AnsiballZ_command.py
+Dec 21 19:00:17 gitclient1 sudo[16033]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:00:17 gitclient1 sudo[16033]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:00:17 gitclient1 sudo[16033]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:00:17 gitclient1 sudo[16167]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ynmumnncphzdibcudosoiurwdulbimib ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519619.899604-5924-150860270669033/AnsiballZ_command.py
+Dec 21 19:00:17 gitclient1 sudo[16167]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:00:17 gitclient1 sudo[16167]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:00:18 gitclient1 sudo[16167]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:00:50 gitclient1 sudo[16350]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aknamtdykndngbehoervumohtmuwyeel ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519652.3635318-5955-187975231437256/AnsiballZ_setup.py
+Dec 21 19:00:50 gitclient1 sudo[16350]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:00:50 gitclient1 sudo[16350]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:00:51 gitclient1 sudo[16350]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:00:52 gitclient1 sudo[16526]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xwliuxygjarzblgnoexbgbgzzsuwpbsb ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519654.1962385-5966-210522832836773/AnsiballZ_command.py
+Dec 21 19:00:52 gitclient1 sudo[16526]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:00:52 gitclient1 sudo[16526]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:00:52 gitclient1 sudo[16526]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:00:53 gitclient1 sudo[16660]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yokgebgxuvvnqecvnmmgvskwwpagowqx ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519655.0853243-5975-57837384582969/AnsiballZ_command.py
+Dec 21 19:00:53 gitclient1 sudo[16660]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:00:53 gitclient1 sudo[16660]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:00:53 gitclient1 sudo[16660]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:01:08 gitclient1 sudo[16847]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-glkstodzrtycjqilahcemtptiwdycqvs ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519669.4796822-6017-260705430096951/AnsiballZ_setup.py
+Dec 21 19:01:08 gitclient1 sudo[16847]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:01:08 gitclient1 sudo[16847]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:01:08 gitclient1 sudo[16847]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:01:09 gitclient1 sudo[17023]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sgnptielvrizfujbrwfqzzlzitzjgyal ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519671.387823-6028-225371700536000/AnsiballZ_command.py
+Dec 21 19:01:09 gitclient1 sudo[17023]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:01:09 gitclient1 sudo[17023]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:01:09 gitclient1 sudo[17023]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:01:10 gitclient1 sudo[17157]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jqikukimshqkuudveshqbnzdhvmseubb ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519672.2922688-6037-28415947072979/AnsiballZ_command.py
+Dec 21 19:01:10 gitclient1 sudo[17157]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:01:10 gitclient1 sudo[17157]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:01:10 gitclient1 sudo[17157]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:01:59 gitclient1 sudo[17557]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dwtrevvviiwbohxodmpklnquyljuiahn ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519720.6241455-6091-122749887984420/AnsiballZ_setup.py
+Dec 21 19:01:59 gitclient1 sudo[17557]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:01:59 gitclient1 sudo[17557]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:01:59 gitclient1 sudo[17557]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:02:00 gitclient1 sudo[17733]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jbzcoloorpijbqrswymjremmujfhmmfa ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519722.421745-6102-210733758204352/AnsiballZ_command.py
+Dec 21 19:02:00 gitclient1 sudo[17733]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:02:00 gitclient1 sudo[17733]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:02:00 gitclient1 sudo[17733]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:02:01 gitclient1 sudo[17867]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-phldudvpjuhjcgkkvxwvrhnbnfzojvky ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519723.294994-6111-116533660181415/AnsiballZ_command.py
+Dec 21 19:02:01 gitclient1 sudo[17867]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:02:01 gitclient1 sudo[17867]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:02:01 gitclient1 sudo[17867]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:02:34 gitclient1 sudo[18044]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bxfywdivzddsonwdhwatdvpnuiazxdah ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519756.1076748-6141-80301120437648/AnsiballZ_command.py
+Dec 21 19:02:34 gitclient1 sudo[18044]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:02:34 gitclient1 sudo[18044]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:02:34 gitclient1 sudo[18044]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:03:34 gitclient1 sshd[14686]: Received disconnect from 172.17.1.254 port 48650:11: disconnected by user
+Dec 21 19:03:34 gitclient1 sshd[14686]: Disconnected from user sysadm 172.17.1.254 port 48650
+Dec 21 19:03:34 gitclient1 sshd[14657]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:05:35 gitclient1 sshd[18127]: Accepted publickey for sysadm from 172.17.1.254 port 48652 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:05:36 gitclient1 systemd[18131]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:05:36 gitclient1 sshd[18127]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:05:37 gitclient1 sudo[18349]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qmdrdmleruocqahzlmsvuyeefkyaxkhn ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519938.5971653-6229-58835764542375/AnsiballZ_setup.py
+Dec 21 19:05:37 gitclient1 sudo[18349]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:05:37 gitclient1 sudo[18349]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:05:37 gitclient1 sudo[18349]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:05:38 gitclient1 sudo[18525]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nnmcwgkpyhtjsikfqjduomnlahbzbshv ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519940.442132-6244-84853819997334/AnsiballZ_command.py
+Dec 21 19:05:38 gitclient1 sudo[18525]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:05:38 gitclient1 sudo[18525]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:05:38 gitclient1 sudo[18525]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:05:39 gitclient1 sudo[18667]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-czittfpiefwaxugfguijybiywybhefdz ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519941.333315-6253-201847482478855/AnsiballZ_command.py
+Dec 21 19:05:39 gitclient1 sudo[18667]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:05:39 gitclient1 sudo[18667]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:05:39 gitclient1 sudo[18667]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:05:40 gitclient1 sudo[18801]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xvgkknqgxhlaicqhuipdqtvoxebxnseh ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608519942.027774-6262-232790986120182/AnsiballZ_command.py
+Dec 21 19:05:40 gitclient1 sudo[18801]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:05:40 gitclient1 sudo[18801]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:05:40 gitclient1 sudo[18801]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:06:40 gitclient1 sshd[18155]: Received disconnect from 172.17.1.254 port 48652:11: disconnected by user
+Dec 21 19:06:40 gitclient1 sshd[18155]: Disconnected from user sysadm 172.17.1.254 port 48652
+Dec 21 19:06:40 gitclient1 sshd[18127]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:31:30 gitclient1 sshd[19073]: Accepted publickey for sysadm from 172.17.1.254 port 48654 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:31:31 gitclient1 systemd[19077]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:31:31 gitclient1 sshd[19073]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:31:31 gitclient1 sudo[19286]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sfrythnxdrvuidotxgweijvlxsmgsvpl ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521493.533525-6963-155939799471350/AnsiballZ_command.py
+Dec 21 19:31:31 gitclient1 sudo[19286]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:31:31 gitclient1 sudo[19286]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:31:32 gitclient1 sudo[19286]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:32:32 gitclient1 sshd[19101]: Received disconnect from 172.17.1.254 port 48654:11: disconnected by user
+Dec 21 19:32:32 gitclient1 sshd[19101]: Disconnected from user sysadm 172.17.1.254 port 48654
+Dec 21 19:32:32 gitclient1 sshd[19073]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:32:32 gitclient1 systemd[19083]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 21 19:32:38 gitclient1 sshd[19363]: Accepted publickey for sysadm from 172.17.1.254 port 48656 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:32:38 gitclient1 systemd[19367]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:32:38 gitclient1 sshd[19363]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:32:39 gitclient1 sudo[19593]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bevnifilarenyjgciqtcwwcieuzfolwa ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521561.2758603-7021-205062243392923/AnsiballZ_setup.py
+Dec 21 19:32:39 gitclient1 sudo[19593]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:32:39 gitclient1 sudo[19593]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:32:40 gitclient1 sudo[19593]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:32:41 gitclient1 sudo[19769]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oqzizcgfowcevtpkxyoiqtrxhjjbwfsl ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521563.3336868-7036-35727077047234/AnsiballZ_dnf.py
+Dec 21 19:32:41 gitclient1 sudo[19769]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:32:41 gitclient1 sudo[19769]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:32:42 gitclient1 sudo[19769]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:32:43 gitclient1 sudo[19903]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wlfqwbpewzqekltljockzkwnxcnsdyhz ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521564.6951435-7045-85341390328278/AnsiballZ_systemd.py
+Dec 21 19:32:43 gitclient1 sudo[19903]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:32:43 gitclient1 sudo[19903]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:32:43 gitclient1 sudo[19903]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:32:44 gitclient1 sudo[20040]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tfeppttehtmjgxykydvhaagiaofukftf ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521566.059259-7054-39761549567708/AnsiballZ_stat.py
+Dec 21 19:32:44 gitclient1 sudo[20040]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:32:44 gitclient1 sudo[20040]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:32:44 gitclient1 sudo[20040]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:32:44 gitclient1 sudo[20111]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-earpwasvuzcuxgzcrjsnwfjadvrjxpav ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521566.059259-7054-39761549567708/AnsiballZ_file.py
+Dec 21 19:32:44 gitclient1 sudo[20111]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:32:44 gitclient1 sudo[20111]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:32:45 gitclient1 sudo[20111]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:32:45 gitclient1 sudo[20244]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mkonytzniaqclkgrfewakfcowkcdfjza ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521567.6854768-7067-193991375046681/AnsiballZ_firewalld.py
+Dec 21 19:32:45 gitclient1 sudo[20244]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:32:45 gitclient1 sudo[20244]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:32:46 gitclient1 sudo[20244]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:32:46 gitclient1 sudo[20377]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vesjngxxzabrtyivowlljtqqsrwjxtho ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521569.0197082-7067-188676092210637/AnsiballZ_firewalld.py
+Dec 21 19:32:46 gitclient1 sudo[20377]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:32:46 gitclient1 sudo[20377]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:32:47 gitclient1 sudo[20377]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:33:47 gitclient1 sshd[19394]: Received disconnect from 172.17.1.254 port 48656:11: disconnected by user
+Dec 21 19:33:47 gitclient1 sshd[19394]: Disconnected from user sysadm 172.17.1.254 port 48656
+Dec 21 19:33:47 gitclient1 sshd[19363]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:34:44 gitclient1 sshd[20459]: Accepted publickey for sysadm from 172.17.1.254 port 48658 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:34:44 gitclient1 systemd[20464]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:34:44 gitclient1 sshd[20459]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:34:45 gitclient1 sudo[20681]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-grurscnjquzpvbsctdedvvrbpvyyqhab ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521687.271964-7215-140460925949412/AnsiballZ_setup.py
+Dec 21 19:34:45 gitclient1 sudo[20681]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:34:45 gitclient1 sudo[20681]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:34:47 gitclient1 sudo[20681]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:34:48 gitclient1 sudo[20857]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lmtmqscjwsnrhoyfllvozvzddrclcziv ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521690.2798169-7230-123557320497616/AnsiballZ_dnf.py
+Dec 21 19:34:48 gitclient1 sudo[20857]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:34:48 gitclient1 sudo[20857]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:34:50 gitclient1 sudo[20857]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:34:51 gitclient1 sudo[20991]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lnddazcjxubzkkicqlwfhfztlltnwdwh ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521692.8447487-7239-259653116229516/AnsiballZ_systemd.py
+Dec 21 19:34:51 gitclient1 sudo[20991]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:34:51 gitclient1 sudo[20991]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:34:51 gitclient1 sudo[20991]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:34:52 gitclient1 sudo[21128]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hhhzebeleafaoyhthktmyzyjmazwqjdj ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521694.1846273-7248-70947192719442/AnsiballZ_stat.py
+Dec 21 19:34:52 gitclient1 sudo[21128]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:34:52 gitclient1 sudo[21128]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:34:52 gitclient1 sudo[21128]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:34:52 gitclient1 sudo[21199]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-surghgwsmxazynsvnvsbmciawvkqwbcb ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521694.1846273-7248-70947192719442/AnsiballZ_file.py
+Dec 21 19:34:53 gitclient1 sudo[21199]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:34:53 gitclient1 sudo[21199]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:34:53 gitclient1 sudo[21199]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:34:53 gitclient1 sudo[21332]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-effogzjznhvzmlfigmgguukodofzuxvl ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521695.7644308-7261-169390583078045/AnsiballZ_firewalld.py
+Dec 21 19:34:53 gitclient1 sudo[21332]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:34:53 gitclient1 sudo[21332]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:34:54 gitclient1 sudo[21332]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:34:54 gitclient1 sudo[21465]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hubqsiqrhcilwegtqhhsafxpdtiqfgve ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521696.9779007-7261-25446334990768/AnsiballZ_firewalld.py
+Dec 21 19:34:54 gitclient1 sudo[21465]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:34:54 gitclient1 sudo[21465]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:34:55 gitclient1 sudo[21465]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:35:06 gitclient1 sudo[21639]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rziastgqbrlvhuhvivxhtwjqnlvciewh ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521707.824812-7306-1118397011849/AnsiballZ_setup.py
+Dec 21 19:35:06 gitclient1 sudo[21639]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:35:06 gitclient1 sudo[21639]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:35:07 gitclient1 sudo[21639]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:35:08 gitclient1 sudo[21815]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-versinhjripecrhgafccefcmgxvfsxbe ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521709.8208416-7317-241190376768907/AnsiballZ_dnf.py
+Dec 21 19:35:08 gitclient1 sudo[21815]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:35:08 gitclient1 sudo[21815]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:35:09 gitclient1 sudo[21815]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:35:10 gitclient1 sudo[21949]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-csdtooxqrlonletmdlnnewsszizdijlf ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521712.2486644-7326-225990325107536/AnsiballZ_systemd.py
+Dec 21 19:35:10 gitclient1 sudo[21949]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:35:10 gitclient1 sudo[21949]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:35:11 gitclient1 sudo[21949]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:35:11 gitclient1 sudo[22086]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pchpbdgwbghfgzeurvkflwzdenwjqcdl ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521713.579325-7335-117081012512971/AnsiballZ_stat.py
+Dec 21 19:35:11 gitclient1 sudo[22086]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:35:11 gitclient1 sudo[22086]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:35:11 gitclient1 sudo[22086]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:35:12 gitclient1 sudo[22196]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uhvacfoasjkoyfqgdpgfkenuzyngyhov ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521713.579325-7335-117081012512971/AnsiballZ_copy.py
+Dec 21 19:35:12 gitclient1 sudo[22196]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:35:12 gitclient1 sudo[22196]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:35:12 gitclient1 sudo[22196]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:35:13 gitclient1 sudo[22329]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hqxdehcyvqmezydtjcauzfxrgzsqxuua ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521715.229335-7351-237549864612948/AnsiballZ_firewalld.py
+Dec 21 19:35:13 gitclient1 sudo[22329]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:35:13 gitclient1 sudo[22329]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:35:13 gitclient1 sudo[22329]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:35:14 gitclient1 sudo[22462]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xsmyyvolcprerppueukzuubdgimxjztn ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608521716.3577735-7351-16845701541350/AnsiballZ_firewalld.py
+Dec 21 19:35:14 gitclient1 sudo[22462]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:35:14 gitclient1 sudo[22462]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:35:14 gitclient1 sudo[22462]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:36:36 gitclient1 sshd[20488]: Received disconnect from 172.17.1.254 port 48658:11: disconnected by user
+Dec 21 19:36:36 gitclient1 sshd[20488]: Disconnected from user sysadm 172.17.1.254 port 48658
+Dec 21 19:36:36 gitclient1 sshd[20459]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:36:36 gitclient1 systemd[20470]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 21 19:41:06 gitclient1 sshd[22661]: Accepted publickey for sysadm from 172.17.1.254 port 48660 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:41:06 gitclient1 systemd[22665]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:41:06 gitclient1 sshd[22661]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:41:07 gitclient1 sudo[22884]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-isishwdlcsvftapipitnxchydcjchxol ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522069.1583064-7626-243347895811913/AnsiballZ_setup.py
+Dec 21 19:41:07 gitclient1 sudo[22884]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:07 gitclient1 sudo[22884]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:08 gitclient1 sudo[22884]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:09 gitclient1 sudo[23060]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xrhykrcmhaytqndtzyeioguoygafuszx ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522071.2105026-7641-47649342741658/AnsiballZ_dnf.py
+Dec 21 19:41:09 gitclient1 sudo[23060]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:09 gitclient1 sudo[23060]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:11 gitclient1 sudo[23060]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:12 gitclient1 sudo[23194]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jyrcgxiwasquxyiyamsdgpagvmeqvxyg ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522073.7059305-7650-111327023300497/AnsiballZ_systemd.py
+Dec 21 19:41:12 gitclient1 sudo[23194]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:12 gitclient1 sudo[23194]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:12 gitclient1 sudo[23194]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:13 gitclient1 sudo[23331]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oqyntsuzirtogfnpaburkogdauhfyodl ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522074.9701295-7659-26130860726124/AnsiballZ_stat.py
+Dec 21 19:41:13 gitclient1 sudo[23331]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:13 gitclient1 sudo[23331]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:13 gitclient1 sudo[23331]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:13 gitclient1 sudo[23402]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hkzgbubuiewpryhnepmpuavgavhpjdfe ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522074.9701295-7659-26130860726124/AnsiballZ_file.py
+Dec 21 19:41:13 gitclient1 sudo[23402]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:13 gitclient1 sudo[23402]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:13 gitclient1 sudo[23402]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:14 gitclient1 sudo[23535]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jcquqzvryxyqzuvinkkxobpefffupubl ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522076.5432456-7672-9603205131868/AnsiballZ_firewalld.py
+Dec 21 19:41:14 gitclient1 sudo[23535]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:14 gitclient1 sudo[23535]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:15 gitclient1 sudo[23535]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:15 gitclient1 sudo[23668]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rojdseqruwmdmkqnyxtlxxufdhtoxpzw ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522077.7540011-7672-13786590586266/AnsiballZ_firewalld.py
+Dec 21 19:41:15 gitclient1 sudo[23668]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:15 gitclient1 sudo[23668]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:16 gitclient1 sudo[23668]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:37 gitclient1 sudo[23842]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mimpuwwlabuvtzcygcwdvegjpaknxvok ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522099.453399-7725-270208221500574/AnsiballZ_setup.py
+Dec 21 19:41:37 gitclient1 sudo[23842]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:37 gitclient1 sudo[23842]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:38 gitclient1 sudo[23842]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:39 gitclient1 sudo[24026]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-upfiqggtnarbbdphrvbytslaepvraovz ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522101.5013297-7736-101584868926395/AnsiballZ_dnf.py
+Dec 21 19:41:39 gitclient1 sudo[24026]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:39 gitclient1 sudo[24026]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:41 gitclient1 sudo[24026]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:42 gitclient1 sudo[24160]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rczimlppbeaufxhsekapaagozdnpdvel ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522104.020624-7745-30055790742599/AnsiballZ_systemd.py
+Dec 21 19:41:42 gitclient1 sudo[24160]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:42 gitclient1 sudo[24160]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:42 gitclient1 sudo[24160]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:43 gitclient1 sudo[24297]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lyvxfbfmpfayztofwqvqpcdodzplfnkk ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522105.3312504-7754-183910717760026/AnsiballZ_stat.py
+Dec 21 19:41:43 gitclient1 sudo[24297]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:43 gitclient1 sudo[24297]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:43 gitclient1 sudo[24297]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:44 gitclient1 sudo[24407]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lmoujpmwpnxettflmrollvfzrlpeoivg ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522105.3312504-7754-183910717760026/AnsiballZ_copy.py
+Dec 21 19:41:44 gitclient1 sudo[24407]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:44 gitclient1 sudo[24407]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:44 gitclient1 sudo[24407]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:45 gitclient1 sudo[24542]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zacabzceknnitrvbzeyaecghonkohaxx ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522107.0411584-7770-274848645249967/AnsiballZ_firewalld.py
+Dec 21 19:41:45 gitclient1 sudo[24542]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:45 gitclient1 sudo[24542]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:45 gitclient1 sudo[24542]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:46 gitclient1 sudo[24675]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mxngpqmofwdydkicmvczxylurnuqhhfr ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522108.2041566-7770-135205893934329/AnsiballZ_firewalld.py
+Dec 21 19:41:46 gitclient1 sudo[24675]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:46 gitclient1 sudo[24675]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:46 gitclient1 sudo[24675]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:41:47 gitclient1 sudo[24808]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xtiexjpcfavpduwmmozilqgakfxeoufm ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522109.2053318-7786-261649927924335/AnsiballZ_systemd.py
+Dec 21 19:41:47 gitclient1 sudo[24808]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:41:47 gitclient1 sudo[24808]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:41:48 gitclient1 sudo[24808]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:42:48 gitclient1 sshd[22689]: Received disconnect from 172.17.1.254 port 48660:11: disconnected by user
+Dec 21 19:42:48 gitclient1 sshd[22689]: Disconnected from user sysadm 172.17.1.254 port 48660
+Dec 21 19:42:48 gitclient1 sshd[22661]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:42:48 gitclient1 systemd[22673]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 21 19:49:09 gitclient1 sshd[25160]: Accepted publickey for sysadm from 172.17.1.254 port 48662 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:49:09 gitclient1 systemd[25164]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:49:09 gitclient1 sshd[25160]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:49:10 gitclient1 sudo[25375]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jdkifewtpzxybjgblxywywyotpsflqrt ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522552.1725824-7962-82783768139961/AnsiballZ_setup.py
+Dec 21 19:49:10 gitclient1 sudo[25375]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:10 gitclient1 sudo[25375]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:11 gitclient1 sudo[25375]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:12 gitclient1 sudo[25551]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zzjtkykpbqkhhoblxfrobqxculxqqkfb ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522554.2257047-7979-240111060227622/AnsiballZ_dnf.py
+Dec 21 19:49:12 gitclient1 sudo[25551]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:12 gitclient1 sudo[25551]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:14 gitclient1 sudo[25551]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:15 gitclient1 sudo[25685]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rqvoscobspibinuskfcgeeehwqszurke ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522556.679595-7988-155764759637806/AnsiballZ_systemd.py
+Dec 21 19:49:15 gitclient1 sudo[25685]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:15 gitclient1 sudo[25685]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:15 gitclient1 sudo[25685]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:16 gitclient1 sudo[25822]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gcdgomwzyqtzqcofbirnpzfkqkuhlhlp ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522557.9977906-8005-46398505023265/AnsiballZ_stat.py
+Dec 21 19:49:16 gitclient1 sudo[25822]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:16 gitclient1 sudo[25822]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:16 gitclient1 sudo[25822]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:16 gitclient1 sudo[25893]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hwynsgprjzjlmehcqthdmdzvwpkhyggo ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522557.9977906-8005-46398505023265/AnsiballZ_file.py
+Dec 21 19:49:16 gitclient1 sudo[25893]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:16 gitclient1 sudo[25893]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:17 gitclient1 sudo[25893]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:17 gitclient1 sudo[26026]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kgasmdsoplbmfrwxhxwgybkjablukrvi ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522559.5851097-8018-50628487221588/AnsiballZ_firewalld.py
+Dec 21 19:49:17 gitclient1 sudo[26026]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:17 gitclient1 sudo[26026]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:18 gitclient1 sudo[26026]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:18 gitclient1 sudo[26159]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bjpyysvnskrdtkaagguektpaoofrjrpi ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522560.7853909-8018-214295496944737/AnsiballZ_firewalld.py
+Dec 21 19:49:18 gitclient1 sudo[26159]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:18 gitclient1 sudo[26159]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:19 gitclient1 sudo[26159]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:31 gitclient1 sudo[26333]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qthaehfgaveiwxioskzzyntwdyedvqpc ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522572.7053425-8063-65484901942346/AnsiballZ_setup.py
+Dec 21 19:49:31 gitclient1 sudo[26333]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:31 gitclient1 sudo[26333]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:31 gitclient1 sudo[26333]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:32 gitclient1 sudo[26509]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-elinfmzcltlemjlgnnxoahvwturkmcws ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522574.7876346-8076-144170367611400/AnsiballZ_dnf.py
+Dec 21 19:49:32 gitclient1 sudo[26509]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:32 gitclient1 sudo[26509]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:34 gitclient1 sudo[26509]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:35 gitclient1 sudo[26643]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-touldijtsjiijpqbviimvvdnqdmnmygu ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522577.1941824-8085-33647241892620/AnsiballZ_systemd.py
+Dec 21 19:49:35 gitclient1 sudo[26643]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:35 gitclient1 sudo[26643]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:35 gitclient1 sudo[26643]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:36 gitclient1 sudo[26780]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mkssedtkvxrgqseeaqltautggsprxret ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522578.4861252-8094-82549548449767/AnsiballZ_stat.py
+Dec 21 19:49:36 gitclient1 sudo[26780]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:36 gitclient1 sudo[26780]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:36 gitclient1 sudo[26780]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:37 gitclient1 sudo[26890]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-irizeszozlzwlodmeetvltiydopgngqr ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522578.4861252-8094-82549548449767/AnsiballZ_copy.py
+Dec 21 19:49:37 gitclient1 sudo[26890]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:37 gitclient1 sudo[26890]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:37 gitclient1 sudo[26890]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:38 gitclient1 sudo[27025]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lpwgncmfxjkxtrfzcrztgkxcxokjqaui ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522580.1999524-8110-103730962103411/AnsiballZ_firewalld.py
+Dec 21 19:49:38 gitclient1 sudo[27025]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:38 gitclient1 sudo[27025]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:38 gitclient1 sudo[27025]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:39 gitclient1 sudo[27158]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-njqrcpfyhubbqdxilwcwcerkkfltzeew ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522581.4196494-8110-64897608613091/AnsiballZ_firewalld.py
+Dec 21 19:49:39 gitclient1 sudo[27158]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:39 gitclient1 sudo[27158]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:39 gitclient1 sudo[27158]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:49:40 gitclient1 sudo[27299]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vxybyhpbbzulpfeprtywxiysnfryqkwc ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522582.4900503-8126-248984094080220/AnsiballZ_systemd.py
+Dec 21 19:49:40 gitclient1 sudo[27299]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:49:40 gitclient1 sudo[27299]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:49:41 gitclient1 sudo[27299]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:50:42 gitclient1 sshd[25190]: Received disconnect from 172.17.1.254 port 48662:11: disconnected by user
+Dec 21 19:50:42 gitclient1 sshd[25190]: Disconnected from user sysadm 172.17.1.254 port 48662
+Dec 21 19:50:42 gitclient1 sshd[25160]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:50:42 gitclient1 systemd[25169]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 21 19:51:02 gitclient1 sshd[27598]: Accepted publickey for sysadm from 172.17.1.254 port 48664 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:51:02 gitclient1 systemd[27602]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:51:02 gitclient1 sshd[27598]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:51:03 gitclient1 sudo[27820]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wctuyryalyexlpexdnfbajbygzzfsxvr ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608522664.8266501-8165-6685697742118/AnsiballZ_setup.py
+Dec 21 19:51:03 gitclient1 sudo[27820]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:51:03 gitclient1 sudo[27820]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:51:04 gitclient1 sudo[27820]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:52:04 gitclient1 sshd[27628]: Received disconnect from 172.17.1.254 port 48664:11: disconnected by user
+Dec 21 19:52:04 gitclient1 sshd[27628]: Disconnected from user sysadm 172.17.1.254 port 48664
+Dec 21 19:52:04 gitclient1 sshd[27598]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:52:04 gitclient1 systemd[27609]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 21 19:57:37 gitclient1 sshd[27967]: Accepted publickey for sysadm from 172.17.1.254 port 48666 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:57:38 gitclient1 systemd[27971]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:57:38 gitclient1 sshd[27967]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:57:39 gitclient1 sudo[28193]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dnwxvxrjubbyisqmfkwtuaolvhmmofrm ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523060.5873358-8287-170720310110620/AnsiballZ_setup.py
+Dec 21 19:57:39 gitclient1 sudo[28193]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:39 gitclient1 sudo[28193]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:39 gitclient1 sudo[28193]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:40 gitclient1 sudo[28377]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qxxgpxcyuzwnujivaudnhwfrwxnhmrer ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523062.7059166-8304-104644544664483/AnsiballZ_dnf.py
+Dec 21 19:57:40 gitclient1 sudo[28377]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:40 gitclient1 sudo[28377]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:42 gitclient1 sudo[28377]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:43 gitclient1 sudo[28511]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kghshdxdipjgzudfmzzoetyfytihvkay ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523065.1602688-8313-36474391555516/AnsiballZ_systemd.py
+Dec 21 19:57:43 gitclient1 sudo[28511]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:43 gitclient1 sudo[28511]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:43 gitclient1 sudo[28511]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:44 gitclient1 sudo[28648]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iooerdpoarfexxsqraddcdhmfadbkqzj ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523066.4911714-8322-112299717648422/AnsiballZ_stat.py
+Dec 21 19:57:44 gitclient1 sudo[28648]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:44 gitclient1 sudo[28648]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:44 gitclient1 sudo[28648]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:45 gitclient1 sudo[28758]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qzzeyyafscbvtrbgvibvrjrhnstfcjbb ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523066.4911714-8322-112299717648422/AnsiballZ_copy.py
+Dec 21 19:57:45 gitclient1 sudo[28758]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:45 gitclient1 sudo[28758]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:45 gitclient1 sudo[28758]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:46 gitclient1 sudo[28893]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vpzqvrybcfoqkntbidvgfhaapcgrttrw ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523068.1729167-8338-248937292878552/AnsiballZ_firewalld.py
+Dec 21 19:57:46 gitclient1 sudo[28893]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:46 gitclient1 sudo[28893]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:46 gitclient1 sudo[28893]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:47 gitclient1 sudo[29026]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mtmkluqtpzblnjylrtczamdnycboqpky ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523069.3226154-8338-97404002050048/AnsiballZ_firewalld.py
+Dec 21 19:57:47 gitclient1 sudo[29026]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:47 gitclient1 sudo[29026]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:47 gitclient1 sudo[29026]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:48 gitclient1 sudo[29159]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-noavitdlbcgafshwxdffzdiptymygsfr ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523070.3171165-8354-151801314892014/AnsiballZ_systemd.py
+Dec 21 19:57:48 gitclient1 sudo[29159]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:48 gitclient1 sudo[29159]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:49 gitclient1 sudo[29159]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:54 gitclient1 sudo[29558]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-icxcdebgngxvtsbbwciswnzftyvntamb ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523075.660355-8377-138055244089708/AnsiballZ_setup.py
+Dec 21 19:57:54 gitclient1 sudo[29558]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:54 gitclient1 sudo[29558]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:54 gitclient1 sudo[29558]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:55 gitclient1 sudo[29734]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-absvhdlsmlrthvfqzunnrgmwhvisiiyr ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523077.7173033-8390-167005244970181/AnsiballZ_dnf.py
+Dec 21 19:57:55 gitclient1 sudo[29734]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:55 gitclient1 sudo[29734]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:57 gitclient1 sudo[29734]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:58 gitclient1 sudo[29868]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-stwrfzigauyexqglnsjqifqtbmivoxix ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523080.115944-8399-236689054538858/AnsiballZ_systemd.py
+Dec 21 19:57:58 gitclient1 sudo[29868]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:58 gitclient1 sudo[29868]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:58 gitclient1 sudo[29868]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:57:59 gitclient1 sudo[30005]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qmqzovwhaqeegtlcipggeybcdkfeyokd ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523081.386434-8408-246166075322908/AnsiballZ_stat.py
+Dec 21 19:57:59 gitclient1 sudo[30005]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:57:59 gitclient1 sudo[30005]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:57:59 gitclient1 sudo[30005]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:58:00 gitclient1 sudo[30076]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pxisxuzwhrpblwfywpvbjyjjtpbmgzmu ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523081.386434-8408-246166075322908/AnsiballZ_file.py
+Dec 21 19:58:00 gitclient1 sudo[30076]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:58:00 gitclient1 sudo[30076]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:58:00 gitclient1 sudo[30076]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:58:01 gitclient1 sudo[30209]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wsuftozcnooutpygiescjqklmbyffevc ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523082.9131029-8421-197879842962183/AnsiballZ_firewalld.py
+Dec 21 19:58:01 gitclient1 sudo[30209]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:58:01 gitclient1 sudo[30209]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:58:01 gitclient1 sudo[30209]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:58:01 gitclient1 sudo[30342]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ehyugkcojsqwxqcfsqnvxnscckjkrofz ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523084.0997972-8421-144674140566604/AnsiballZ_firewalld.py
+Dec 21 19:58:01 gitclient1 sudo[30342]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:58:01 gitclient1 sudo[30342]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:58:02 gitclient1 sudo[30342]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:59:02 gitclient1 sshd[27999]: Received disconnect from 172.17.1.254 port 48666:11: disconnected by user
+Dec 21 19:59:02 gitclient1 sshd[27999]: Disconnected from user sysadm 172.17.1.254 port 48666
+Dec 21 19:59:02 gitclient1 sshd[27967]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 19:59:02 gitclient1 systemd[27981]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 21 19:59:18 gitclient1 sshd[30406]: Accepted publickey for sysadm from 172.17.1.254 port 48668 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 21 19:59:18 gitclient1 systemd[30410]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 21 19:59:18 gitclient1 sshd[30406]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 21 19:59:19 gitclient1 sudo[30628]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pklomjuovonfwixwwysxzqlqxvmzilva ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523161.1772695-8477-96065160199388/AnsiballZ_setup.py
+Dec 21 19:59:19 gitclient1 sudo[30628]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:59:19 gitclient1 sudo[30628]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:59:20 gitclient1 sudo[30628]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:59:21 gitclient1 sudo[30804]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nwtuxwvkwluntotsiovcrslsvtjomifq ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523163.244965-8494-737398291745/AnsiballZ_dnf.py
+Dec 21 19:59:21 gitclient1 sudo[30804]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:59:21 gitclient1 sudo[30804]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:59:23 gitclient1 sudo[30804]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:59:23 gitclient1 sudo[30938]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tlcghjlkbrudhjzstnezsfsgstjmhcuz ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523165.6342368-8503-9638106939703/AnsiballZ_systemd.py
+Dec 21 19:59:23 gitclient1 sudo[30938]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:59:23 gitclient1 sudo[30938]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:59:24 gitclient1 sudo[30938]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:59:24 gitclient1 sudo[31075]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dxktoraghwxebldxrswdxdzbnurdtbiz ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523166.8766806-8512-255023610632797/AnsiballZ_stat.py
+Dec 21 19:59:24 gitclient1 sudo[31075]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:59:24 gitclient1 sudo[31075]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:59:25 gitclient1 sudo[31075]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:59:25 gitclient1 sudo[31146]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dqzcsyalrnnckddwogpaybyaailzlhor ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523166.8766806-8512-255023610632797/AnsiballZ_file.py
+Dec 21 19:59:25 gitclient1 sudo[31146]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:59:25 gitclient1 sudo[31146]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:59:25 gitclient1 sudo[31146]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:59:26 gitclient1 sudo[31279]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gdjymxqdnpgpsnwwzsbkhvbxyeftgska ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523168.4319062-8525-43094659344075/AnsiballZ_firewalld.py
+Dec 21 19:59:26 gitclient1 sudo[31279]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:59:26 gitclient1 sudo[31279]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:59:27 gitclient1 sudo[31279]: pam_unix(sudo:session): session closed for user root
+Dec 21 19:59:27 gitclient1 sudo[31412]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pnewjbpgqabqqssukwmoyflavxyrbrmk ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1608523169.6540315-8525-204140992289039/AnsiballZ_firewalld.py
+Dec 21 19:59:27 gitclient1 sudo[31412]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 21 19:59:27 gitclient1 sudo[31412]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 21 19:59:28 gitclient1 sudo[31412]: pam_unix(sudo:session): session closed for user root
+Dec 21 20:00:28 gitclient1 sshd[30433]: Received disconnect from 172.17.1.254 port 48668:11: disconnected by user
+Dec 21 20:00:28 gitclient1 sshd[30433]: Disconnected from user sysadm 172.17.1.254 port 48668
+Dec 21 20:00:28 gitclient1 sshd[30406]: pam_unix(sshd:session): session closed for user sysadm
+Dec 21 20:00:28 gitclient1 systemd[30417]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 28 17:17:35 gitclient1 polkitd[901]: Loading rules from directory /etc/polkit-1/rules.d
+Dec 28 17:17:35 gitclient1 polkitd[901]: Loading rules from directory /usr/share/polkit-1/rules.d
+Dec 28 17:17:35 gitclient1 polkitd[901]: Finished loading, compiling and executing 10 rules
+Dec 28 17:17:35 gitclient1 polkitd[901]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Dec 28 17:17:37 gitclient1 sshd[1052]: Server listening on 0.0.0.0 port 22.
+Dec 28 17:17:37 gitclient1 sshd[1052]: Server listening on :: port 22.
+Dec 28 17:17:41 gitclient1 systemd[1493]: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Dec 28 17:17:41 gitclient1 gdm-launch-environment][1475]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Dec 28 17:17:48 gitclient1 polkitd[901]: Registered Authentication Agent for unix-session:c1 (system bus name :1.112 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 28 17:21:54 gitclient1 systemd[2321]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Dec 28 17:21:54 gitclient1 gdm-password][2311]: pam_unix(gdm-password:session): session opened for user student by (uid=0)
+Dec 28 17:21:57 gitclient1 polkitd[901]: Registered Authentication Agent for unix-session:2 (system bus name :1.242 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_TW.UTF-8)
+Dec 28 17:36:02 gitclient1 sshd[3255]: Accepted publickey for sysadm from 172.17.1.254 port 39662 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 28 17:36:02 gitclient1 systemd[3260]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 28 17:36:02 gitclient1 sshd[3255]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 28 17:36:03 gitclient1 sudo[3479]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vulxsbudwrmgjqcoesxygjgcrlspsklh ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609119364.6929657-3423-214175672108916/AnsiballZ_setup.py
+Dec 28 17:36:03 gitclient1 sudo[3479]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:36:03 gitclient1 sudo[3479]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:36:04 gitclient1 sudo[3479]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:36:05 gitclient1 sudo[3655]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bxxokzmpkfaiahzraekaufjzshxgygvp ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609119366.7395873-3441-104514382061208/AnsiballZ_stat.py
+Dec 28 17:36:05 gitclient1 sudo[3655]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:36:05 gitclient1 sudo[3655]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:36:05 gitclient1 sudo[3655]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:36:34 gitclient1 sudo[3831]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zgddtzhltscxrlhinskuehqzbcqksqbp ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609119395.6904087-3474-269546093359091/AnsiballZ_setup.py
+Dec 28 17:36:34 gitclient1 sudo[3831]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:36:34 gitclient1 sudo[3831]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:36:35 gitclient1 sudo[3831]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:36:35 gitclient1 sudo[4015]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-usjbwaszfdylgmtratdrhithojhcxovt ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609119397.5064511-3485-16348062435500/AnsiballZ_stat.py
+Dec 28 17:36:35 gitclient1 sudo[4015]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:36:35 gitclient1 sudo[4015]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:36:36 gitclient1 sudo[4015]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:37:36 gitclient1 sshd[3286]: Received disconnect from 172.17.1.254 port 39662:11: disconnected by user
+Dec 28 17:37:36 gitclient1 sshd[3286]: Disconnected from user sysadm 172.17.1.254 port 39662
+Dec 28 17:37:36 gitclient1 sshd[3255]: pam_unix(sshd:session): session closed for user sysadm
+Dec 28 17:37:36 gitclient1 systemd[3267]: pam_unix(systemd-user:session): session closed for user sysadm
+Dec 28 17:46:18 gitclient1 sshd[4148]: Accepted publickey for sysadm from 172.17.1.254 port 39664 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 28 17:46:18 gitclient1 systemd[4152]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 28 17:46:18 gitclient1 sshd[4148]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 28 17:46:19 gitclient1 sudo[4372]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oatrosxouznrbppxqbaqnggsojljbpbd ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609119980.6765943-3623-229930163525781/AnsiballZ_setup.py
+Dec 28 17:46:19 gitclient1 sudo[4372]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:46:19 gitclient1 sudo[4372]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:46:20 gitclient1 sudo[4372]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:46:20 gitclient1 sudo[4548]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bswootbpwcwuxffrbrepruymxlagotno ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609119982.4697633-3638-116893180569437/AnsiballZ_file.py
+Dec 28 17:46:20 gitclient1 sudo[4548]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:46:20 gitclient1 sudo[4548]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:46:21 gitclient1 sudo[4548]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:46:21 gitclient1 sudo[4681]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ribzyyccdimvibgufbqgfawdwvwkvtsz ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609119983.351935-3647-106049727488701/AnsiballZ_command.py
+Dec 28 17:46:21 gitclient1 sudo[4681]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:46:21 gitclient1 sudo[4681]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:46:22 gitclient1 sudo[4681]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:47:22 gitclient1 sshd[4176]: Received disconnect from 172.17.1.254 port 39664:11: disconnected by user
+Dec 28 17:47:22 gitclient1 sshd[4176]: Disconnected from user sysadm 172.17.1.254 port 39664
+Dec 28 17:47:22 gitclient1 sshd[4148]: pam_unix(sshd:session): session closed for user sysadm
+Dec 28 17:52:52 gitclient1 sshd[4810]: Accepted publickey for sysadm from 172.17.1.254 port 39666 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 28 17:52:53 gitclient1 sshd[4811]: Accepted publickey for sysadm from 172.17.1.254 port 39668 ssh2: RSA SHA256:V2oUDYJCSdmqRD11Lo1P7gDn1FyMRopYSAQtN7v+pbQ
+Dec 28 17:52:53 gitclient1 systemd[4817]: pam_unix(systemd-user:session): session opened for user sysadm by (uid=0)
+Dec 28 17:52:53 gitclient1 sshd[4811]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 28 17:52:53 gitclient1 sshd[4810]: pam_unix(sshd:session): session opened for user sysadm by (uid=0)
+Dec 28 17:52:54 gitclient1 sudo[5186]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dhuxjqlrfsvjnpyhlvtxjgqscfjcltrm ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609120375.4272532-3749-226134088231735/AnsiballZ_setup.py
+Dec 28 17:52:54 gitclient1 sudo[5188]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qxpomwndowxvgwvtfenkujbucsorbmzt ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609120375.4252043-3750-165940415346753/AnsiballZ_setup.py
+Dec 28 17:52:54 gitclient1 sudo[5186]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:52:54 gitclient1 sudo[5186]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:52:54 gitclient1 sudo[5188]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:52:54 gitclient1 sudo[5188]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:52:55 gitclient1 sudo[5188]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:52:55 gitclient1 sudo[5186]: pam_unix(sudo:session): session closed for user root
+Dec 28 17:52:55 gitclient1 sudo[5539]:  sysadm : TTY=pts/0 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uuwebkhcyxoiwgkhtcngnqukmbmjsjdx ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609120377.3568661-3782-79990843404115/AnsiballZ_slurp.py
+Dec 28 17:52:55 gitclient1 sudo[5540]:  sysadm : TTY=pts/1 ; PWD=/home/sysadm ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rawfgewhobglufemruyfjvfkvwiboivj ; /usr/libexec/platform-python /home/sysadm/.ansible/tmp/ansible-tmp-1609120377.3454607-3780-203551123197844/AnsiballZ_slurp.py
+Dec 28 17:52:55 gitclient1 sudo[5539]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:52:55 gitclient1 sudo[5539]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)
+Dec 28 17:52:55 gitclient1 sudo[5540]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Dec 28 17:52:55 gitclient1 sudo[5540]: pam_unix(sudo:session): session opened for user root by sysadm(uid=0)

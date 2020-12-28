@@ -1,0 +1,8 @@
+######################################################################
+#
+# This server is managed by ansible
+# please contect {{ system_owner }}
+# System total memory: {{ ansible_memtotal_mb }} MiB
+# System prcessor cores: {{ ansible_processor_cores }}
+#
+######################################################################

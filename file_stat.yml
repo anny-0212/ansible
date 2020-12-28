@@ -1,0 +1,15 @@
+---
+  - name: check file stat use stat module
+    hosts: webserver1
+    tasks:
+      - name: check state for /etc/issue
+        stat:
+          path: /etc/issue
+          checksum_algorithm: sha512
+        register: results
+      - name: show output
+        debug:
+          msg: |
+            the sha512 is, {{ results.stat.checksum }}
+            the owner is {{ results.stat.pw_name }}
+            the group is {{ results.stat.gr_name }}
