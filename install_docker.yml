@@ -1,0 +1,37 @@
+---
+  - name: add docker 
+    hosts: webserver1
+    tasks:
+      - name: cd restory
+        shell:
+          cmd: cd /etc/yum.repos.d/ ; wget https://download.docker.com/linux/centos/docker-ce.repo 
+        register: output
+      - name: show output
+        debug:
+          msg: "{{ output.stdout }}"
+        
+      - name: remove runc 
+        yum:
+          name: 
+            - runc
+          state: absent
+      - name: install docker
+        yum:
+          name: 
+            - docker-ce
+            - docker-ce-cli
+            - containerd.io
+          state: latest
+      - name: Enable service docker
+        service:
+          name: docker
+          enabled: yes
+          state: started
+      - name: Copy daemon
+        copy:
+          src: /etc/docker/daemon.json
+          dest: /etc/docker/
+      - name: restart service docker
+        service:
+          name: docker
+          state: restarted
